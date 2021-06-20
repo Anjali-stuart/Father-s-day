@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(12, 11, 26);
+    color: white;
+
+}
+.sky{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 50vh;
+    background-image: url("cloud.jpg") ;
+    background-size: cover;
+    background-repeat: repeat;
+    background-color: rgb(42, 165, 89);  
+}
+@keyframes animate {
+    0%{
+        font-size: smaller;
+    }
+    50%{
+        font-size: large;
+    }
+    70%{
+        font-size: larger;
+    }
+    100%{
+        font-size: xx-large;
+        color: rgb(240, 244, 245);
+    }
+}
+
+h1{
+    font-size: 4em;
+    font-weight:300px;
+    color:white;
+    letter-spacing: 6px;
+    /* font-family: sans-serif; */
+    font-family: 'Dancing Script', cursive;
+    text-transform: uppercase;
+
+    animation: animate 5s linear 2ms;
+}
+#btn{
+    background-image: url("father.jpg");
+    background-size: cover;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 45vh;  
+}
+#btn a{
+    background-color:rgba(0,0,0,0.4); /* Green */
+    border: 2px solid #4CAF50;
+    text-decoration: none;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    border: none;
+    color: white;
+    padding: 51px 167px;
+    text-align: center;
+    display: inline-block;
+    font-size: 4em;
+    cursor: pointer;
+  
+}
+footer{
+    font-size: 12px;
+    margin-top: 250px;
+    text-align: center;
+    line-height: 18px;
+}
+footer p {
+    font-size: 1.3rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(168, 207, 212);
+        /* display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+     */
+}
+hr {
+    width: 660px;
+    color: rgb(26, 24, 24);
+}
